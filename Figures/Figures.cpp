@@ -311,3 +311,7 @@ Triangle Figures::getFigure_triangle(int index)
 	if (index >= 0 && index < _sizeT) { return _triangles[index]; }
 	else cout << "Error! Invalid index\n";
 }
+
+int Figures::getSize_S(){ return _sizeS;}
+
+int Figures::getSize_T(){return _sizeT;}

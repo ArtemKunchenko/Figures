@@ -26,6 +26,8 @@ public:
 	//Getters
 	Square getFigure_square(int index);
 	Triangle getFigure_triangle(int index);
+	int getSize_S();
+	int getSize_T();
 
 private:
 	int _sizeS;
