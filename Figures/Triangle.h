@@ -1,6 +1,7 @@
 #pragma once
 #include<iostream>
 #include<string>
+#include<math.h>
 using namespace std;
 class Triangle
 {
@@ -12,6 +13,8 @@ public:
 	int getA();
 	int getB();
 	int getC();
+	int getPerimetr();
+	double getArea();
 	//Setters
 	void setA(int a);
 	void setB(int b);

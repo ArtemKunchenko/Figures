@@ -12,6 +12,8 @@ public:
 	//Getters
 	int getA();
 	int getB();
+	int getPerimetr();
+	int getArea();
 	//Setters
 	void setA(int a);
 	void setB(int b);
