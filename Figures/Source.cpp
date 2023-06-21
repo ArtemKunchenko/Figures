@@ -2,17 +2,23 @@
 #include<string>
 #include "Triangle.h"
 #include "Square.h"
-
+#include "Figures.h"
 
 
 int main()
 {
-	Triangle test_tr(1, 2, 4);
-	cout << test_tr.ToString() << endl;
-	cout << test_tr.getArea() << endl;
-	Square test_sq(5, 10);
-	cout << test_sq.ToString() << endl;
-	cout << test_sq.getArea() << endl;
+	Triangle test_tr1(1, 1, 1);
+	Triangle test_tr2(2, 2, 2);
+	Square test_sq1(1, 1);
+	Square test_sq2(2, 2);
+	Figures test1;
+	Figures test2(test_tr1);
+	Figures test3(test_sq1);
+	Figures test4(test_sq2, test_tr2);
+	Figures test5(test4);
+	test4.AddFigure(test_sq1, test_tr1);
+	test4.PrintSquares();
+	test4.PrintTriangles();
 	system("pause");
 	return 0;
 }

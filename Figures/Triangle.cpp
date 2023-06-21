@@ -14,7 +14,7 @@ Triangle::Triangle(int a, int b, int c)
 	_c = c;
 }
 
-string Triangle::ToString(){return "A="+to_string(_a)+" B=" + to_string(_b)+" C="+to_string(_c);}
+string Triangle::ToString(){return "A="+to_string(_a)+" B=" + to_string(_b)+" C="+to_string(_c)+"\n"; }
 
 int Triangle::getA(){return _a;}
 

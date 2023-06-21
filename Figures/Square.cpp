@@ -12,7 +12,7 @@ Square::Square(int a, int b)
 	_b = b;
 }
 
-string Square::ToString(){ return "A=" + to_string(_a) + " B=" + to_string(_b);}
+string Square::ToString(){ return "A=" + to_string(_a) + " B=" + to_string(_b)+"\n"; }
 
 int Square::getA() { return _a; }
 
